@@ -180,7 +180,7 @@ void set_op::subset(int a[10],int cnt1,int b[10],int cnt2)
 				flag=0;
 		}
 	}		
-    
+    if(flag==1)
     cout<<"A is a subset of B";
 }
 
